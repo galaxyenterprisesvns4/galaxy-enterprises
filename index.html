@@ -1,156 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Galaxy Enterprises | Appliance Repair & Electronics Service | Varanasi</title>
-<meta name="description" content="Galaxy Enterprises Varanasi — washing machine, microwave, AC, inverter and electronics repair service for major brands. Call or WhatsApp for service.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Galaxy Enterprises Varanasi - Washing Machine, AC and Microwave Oven Repair & Service.">
+<title>Galaxy Enterprises | Appliance Repair Varanasi</title>
 <style>
-:root{--navy:#06264b;--blue:#0b73e0;--sky:#eaf4ff;--green:#16a34a;--yellow:#ffc400;--ink:#13233a;--muted:#66758a;--white:#fff;--line:#e6edf5;--shadow:0 12px 32px rgba(5,31,63,.10)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}
-.top{background:var(--navy);color:#fff;padding:9px 5%;font-size:13px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-.nav{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:14px 5%;box-shadow:0 4px 18px rgba(0,0,0,.06)}
-.logo{font-weight:900;line-height:.85;font-size:25px;color:var(--navy);letter-spacing:.5px}.logo span{display:block;font-size:13px;letter-spacing:1px;text-align:center}
-.links{display:flex;gap:25px;font-weight:700;font-size:14px}.links a:hover{color:var(--blue)}
-.navcall{background:var(--blue);color:#fff;padding:12px 18px;border-radius:10px;font-weight:800}
-.hero{background:linear-gradient(110deg,#031b36 0%,#073d70 55%,#0b5c9d 100%);color:#fff;padding:45px 5%;display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}
-.hero h1{font-size:clamp(38px,5vw,66px);line-height:1;margin:0 0 14px}.hero h1 span{color:#ffd21a}.hero p{font-size:18px;line-height:1.6;max-width:650px}
-.pills{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.pill{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:10px 13px;border-radius:999px;font-weight:700}
-.btns{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 20px;border-radius:10px;font-weight:900;display:inline-flex;align-items:center;gap:8px}.primary{background:var(--blue);color:#fff}.wa{background:#19b957;color:#fff}.light{background:#fff;color:var(--navy)}
-.hero-img{min-height:390px;border-radius:24px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.25);position:relative}.hero-img img{width:100%;height:100%;object-fit:cover;display:block}.hero-label{position:absolute;left:18px;bottom:18px;background:rgba(0,24,48,.85);padding:12px 16px;border-radius:12px;font-weight:800}
-.trust{margin:-24px 5% 35px;position:relative;z-index:2;background:#fff;border-radius:18px;box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line)}.trust div{padding:22px;text-align:center;border-right:1px solid var(--line)}.trust div:last-child{border:0}.trust b{display:block;margin-bottom:6px}.trust span{color:var(--muted);font-size:13px}
-section{padding:65px 5%}.section-title{text-align:center;margin-bottom:35px}.section-title h2{font-size:34px;margin:0 0 10px}.section-title p{color:var(--muted);max-width:700px;margin:auto;line-height:1.6}.under{width:65px;height:4px;background:var(--blue);margin:13px auto;border-radius:5px}
-.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 8px 25px rgba(8,43,80,.06);transition:.25s}.card:hover{transform:translateY(-7px);box-shadow:var(--shadow)}.card img{width:100%;height:190px;object-fit:cover}.cardbody{padding:20px}.icon{width:48px;height:48px;background:var(--sky);color:var(--blue);display:grid;place-items:center;border-radius:14px;font-size:25px}.card h3{margin:12px 0 7px}.card p{color:var(--muted);line-height:1.55;font-size:14px}
-.gallery{background:#f7faff}.gallery-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.g{position:relative;height:190px;border-radius:15px;overflow:hidden;background:#dbeafe}.g img{width:100%;height:100%;object-fit:cover;transition:.5s}.g:hover img{transform:scale(1.08)}.g span{position:absolute;left:0;right:0;bottom:0;padding:11px;color:#fff;font-weight:800;background:linear-gradient(transparent,rgba(0,20,45,.9))}
-.brands{display:flex;flex-wrap:wrap;justify-content:center;gap:13px}.brand{min-width:130px;height:82px;border:1px solid var(--line);border-radius:14px;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;box-shadow:0 5px 18px rgba(0,0,0,.04);transition:.2s}.brand:hover{transform:translateY(-4px);border-color:#9bc8f5}.brand img{width:76px;height:34px;object-fit:contain}.brand b{font-size:12px;color:#334155}
-.why{background:var(--navy);color:#fff}.whygrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.whycard{padding:24px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.06);border-radius:18px}.whycard strong{font-size:28px}.whycard h3{margin:10px 0}.whycard p{color:#cbd8e7;line-height:1.55;font-size:14px}
-.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 25px rgba(8,43,80,.05)}.stars{color:#f5b400;font-size:20px;letter-spacing:2px}.review p{color:var(--muted);line-height:1.6}.review small{font-weight:800;color:var(--navy)}
-.enquiry{background:linear-gradient(135deg,#edf6ff,#fff)}.formwrap{max-width:950px;margin:auto;background:#fff;padding:30px;border-radius:22px;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 1fr;gap:15px}.formwrap h2,.formwrap .full{grid-column:1/-1}.field{padding:14px;border:1px solid #d9e3ef;border-radius:10px;font:inherit;width:100%}.submit{border:0;background:var(--yellow);color:#111;padding:15px;border-radius:10px;font-weight:900;cursor:pointer;font-size:16px}
-.map{width:100%;height:330px;border:0;border-radius:18px;box-shadow:var(--shadow)}
-footer{background:#031a32;color:#d9e5f2;padding:40px 5% 20px}.footgrid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:30px}.footgrid h3{color:#fff}.footgrid a{color:#fff}.copy{border-top:1px solid rgba(255,255,255,.12);margin-top:25px;padding-top:18px;text-align:center;font-size:13px}
-.float{position:fixed;right:18px;bottom:18px;z-index:30;background:#19b957;color:#fff;border-radius:50px;padding:14px 18px;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.25);animation:pulse 2s infinite}@keyframes pulse{50%{transform:scale(1.04)}}
-.slider{position:relative;overflow:hidden}.slides{display:flex;animation:slide 16s infinite}.slide{min-width:100%;position:relative}.slide img{display:block;width:100%;height:390px;object-fit:cover}.slide .caption{position:absolute;bottom:0;left:0;right:0;padding:14px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.8));font-weight:800}@keyframes slide{0%,28%{transform:translateX(0)}33%,61%{transform:translateX(-100%)}66%,94%{transform:translateX(-200%)}100%{transform:translateX(0)}}
-@media(max-width:900px){.links{display:none}.hero{grid-template-columns:1fr}.hero-img{min-height:270px}.trust{grid-template-columns:1fr 1fr}.trust div:nth-child(2){border-right:0}.cards{grid-template-columns:1fr 1fr}.gallery-grid{grid-template-columns:repeat(2,1fr)}.whygrid{grid-template-columns:1fr 1fr}.reviews{grid-template-columns:1fr}.footgrid{grid-template-columns:1fr}.formwrap{grid-template-columns:1fr}.formwrap h2,.formwrap .full{grid-column:auto}}
-@media(max-width:560px){section{padding:48px 5%}.cards{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr}.g{height:150px}.trust{margin-top:-15px}.trust div{padding:16px 8px}.hero{padding-top:35px}.hero-img{min-height:230px}.brand{min-width:105px}}
+:root{--navy:#031b3d;--blue:#0878e8;--yellow:#ffc400;--green:#16b84e;--light:#f5f8fc;--text:#10233f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff}
+a{text-decoration:none;color:inherit}.top{background:var(--navy);color:#fff;padding:9px 4%;display:flex;justify-content:space-between;font-size:13px;gap:15px}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 4%;background:#fff;position:sticky;top:0;z-index:50;box-shadow:0 2px 15px #0001}.logo{font-weight:900;font-size:25px;line-height:.8;color:var(--navy)}.logo span{color:#126fe2}.links{display:flex;gap:30px;font-weight:700;font-size:14px}.phone{background:#0878e8;color:#fff;padding:13px 20px;border-radius:10px;font-weight:800}
+.hero{background:linear-gradient(110deg,#031b3d 0%,#07376b 55%,#075d99 100%);color:#fff;padding:34px 4% 45px;display:grid;grid-template-columns:1.2fr 1fr 340px;gap:28px;align-items:center}.hero h1{font-size:52px;margin:12px 0}.hero h1 span{color:var(--yellow)}.hero h2{color:var(--yellow);font-size:22px}.hero p{font-size:18px;line-height:1.6}.badge{display:inline-block;border:1px solid #ffffff66;border-radius:30px;padding:9px 14px}.hero-img{height:390px;border-radius:22px;background:linear-gradient(#0002,#0005),url('https://images.unsplash.com/photo-1631545806609-2bff7a0a5a7f?auto=format&fit=crop&w=1000&q=85') center/cover;box-shadow:0 15px 35px #0006}.form{background:#05234a;border:1px solid #49a2ff;border-radius:18px;padding:20px}.form h2{margin-top:0;color:var(--yellow)}input,textarea{width:100%;border:0;border-radius:8px;padding:13px;margin:6px 0;font-size:14px}textarea{height:90px;resize:vertical}.btn{display:inline-block;border:0;padding:13px 20px;border-radius:8px;font-weight:800;cursor:pointer}.blue{background:#0878e8;color:#fff}.green{background:var(--green);color:#fff}.yellow{background:var(--yellow);color:#111;width:100%;margin-top:6px}
+.actions{display:flex;gap:12px;margin-top:22px}.trust{display:grid;grid-template-columns:repeat(4,1fr);margin:-1px 3% 45px;background:#fff;border-radius:15px;box-shadow:0 8px 28px #0002;padding:20px}.trust div{text-align:center;border-right:1px solid #ddd}.trust div:last-child{border:0}.trust b{display:block;margin-bottom:6px}
+section{padding:30px 4% 55px}.title{text-align:center;font-size:30px;margin:0 0 8px}.sub{text-align:center;color:#687789;margin:0 auto 28px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 8px 25px #09284d18;border:1px solid #e5eaf0;transition:.3s}.card:hover{transform:translateY(-7px);box-shadow:0 15px 35px #09284d28}.card img{width:100%;height:210px;object-fit:cover;display:block}.card-body{padding:20px}.card h3{font-size:21px;margin:0 0 10px}.card p{color:#687789;line-height:1.5}.more{color:#0878e8;font-weight:800}
+.gallery{background:var(--light)}.slider{display:flex;gap:14px;overflow:hidden;position:relative}.slide{min-width:calc(20% - 12px);border-radius:13px;overflow:hidden;background:#fff;box-shadow:0 5px 18px #0001}.slide img{width:100%;height:150px;object-fit:cover;display:block}.slide span{display:block;text-align:center;padding:9px;font-weight:700;font-size:13px}
+.brands{display:grid;grid-template-columns:repeat(11,1fr);gap:10px;align-items:center}.brand{height:60px;border:1px solid #e2e6eb;border-radius:9px;display:flex;align-items:center;justify-content:center;background:#fff;padding:8px;font-weight:900;font-size:13px;text-align:center}.brand img{max-width:90px;max-height:34px}
+.why{background:#f6f9fd}.whygrid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.whybox{background:#fff;border-radius:14px;padding:24px;text-align:center;box-shadow:0 5px 18px #0000000d}.whybox .ico{font-size:32px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.map{min-height:300px;border-radius:16px;background:#dce8f5;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:700}.footer{background:var(--navy);color:#fff;padding:45px 4%;display:grid;grid-template-columns:1fr 1fr 1fr;gap:35px}.footer h3{color:#4ca0ff}.float{position:fixed;right:20px;bottom:20px;background:var(--green);color:#fff;padding:14px 18px;border-radius:30px;z-index:100;font-weight:800;box-shadow:0 7px 20px #0004}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-img{height:280px}.links{display:none}.services{grid-template-columns:1fr}.trust{grid-template-columns:1fr 1fr}.trust div{padding:10px;border-bottom:1px solid #ddd}.slide{min-width:46%}.brands{grid-template-columns:repeat(4,1fr)}.whygrid{grid-template-columns:1fr 1fr}.contact,.footer{grid-template-columns:1fr}}
+@media(max-width:550px){.hero h1{font-size:38px}.top{font-size:10px}.trust{margin:0 3% 30px}.brands{grid-template-columns:repeat(3,1fr)}.whygrid{grid-template-columns:1fr}.slide{min-width:80%}}
 </style>
 </head>
 <body>
-<div class="top"><span>📍 Patel Katra, Kakarmatta Rd, Central Market DLW, BLW, Varanasi, Uttar Pradesh 221004</span><span>🕘 Service enquiries welcome • Call/WhatsApp for availability</span></div>
-<nav class="nav">
-  <a class="logo" href="#">GALAXY<span>ENTERPRISES</span></a>
-  <div class="links"><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#brands">Brands</a><a href="#why">Why Us</a><a href="#contact">Contact</a></div>
-  <a class="navcall" href="tel:8840436060">📞 8840436060</a>
-</nav>
+<div class="top"><span>📍 Patel Katra, Kakarmatta Rd, Central Market DLW, BLW, Varanasi, Uttar Pradesh 221004</span><span>🕘 Opens 9:00 AM</span></div>
+<nav class="nav"><a class="logo" href="#">GALAXY<br><span>ENTERPRISES</span></a><div class="links"><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#brands">Brands</a><a href="#why">Why Us</a><a href="#contact">Contact</a></div><a class="phone" href="tel:8840436060">📞 8840436060</a></nav>
 
-<header id="home" class="hero">
-  <div>
-    <div class="pills"><span class="pill">🔧 Appliance Repair</span><span class="pill">🏠 Home Service</span><span class="pill">📍 Varanasi</span></div>
-    <h1>Galaxy <span>Enterprises</span></h1>
-    <p>Washing Machine • Microwave • AC Repair & Service. Professional appliance repair solutions for major brands, with convenient enquiry and WhatsApp support.</p>
-    <div class="btns"><a class="btn primary" href="tel:8840436060">📞 Call Now</a><a class="btn wa" href="https://wa.me/918840436060?text=Hello%20Galaxy%20Enterprises,%20I%20need%20repair%20service." target="_blank">💬 WhatsApp Us</a><a class="btn light" href="#enquiry">📝 Enquiry Now</a></div>
-  </div>
-  <div class="hero-img"><img src="https://unsplash.com/photos/an-air-conditioning-unit-is-mounted-on-a-wall-VdtIwqWTh78/download?force=true&w=1200" alt="Air conditioner service"></div>
-</header>
-
-<div class="trust">
-  <div><b>🔧 Multi-Appliance Service</b><span>Washing Machine • AC • Microwave</span></div>
-  <div><b>🚗 Convenient Home Visit</b><span>Enquire for service availability</span></div>
-  <div><b>🏷️ Major Brands</b><span>Popular appliance brands supported</span></div>
-  <div><b>💬 Easy Booking</b><span>Call or WhatsApp to enquire</span></div>
+<main id="home">
+<section class="hero">
+<div>
+<span class="badge">⚙️ REPAIR • SERVICE • INSTALLATION</span>
+<h1>Galaxy <span>Enterprises</span></h1>
+<h2>Washing Machine • AC • Microwave Repair</h2>
+<p>Professional appliance repair & service for major brands at your doorstep in Varanasi.</p>
+<div class="actions"><a class="btn blue" href="tel:8840436060">📞 Call Now</a><a class="btn green" href="https://wa.me/918840436060?text=Hello%20Galaxy%20Enterprises%2C%20I%20need%20appliance%20repair%20service.">💬 Chat on WhatsApp</a></div>
 </div>
-
-<section id="services">
-  <div class="section-title"><h2>Our Services</h2><div class="under"></div><p>Choose washing machine, microwave or AC service and send an enquiry in seconds.</p></div>
-  <div class="cards">
-    <article class="card"><img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=900&q=80" alt="Washing machine"><div class="cardbody"><div class="icon">🧺</div><h3>Washing Machine Repair</h3><p>Repair and service for fully automatic, semi-automatic and top-load washing machines.</p><a href="#enquiry">Enquire →</a></div></article>
-    <article class="card"><img src="https://unsplash.com/photos/white-microwave-oven-turned-off-WtxE9xb0vQU/download?force=true&w=900" alt="Microwave oven"><div class="cardbody"><div class="icon">🍲</div><h3>Microwave Oven Repair</h3><p>Microwave service including heating, door, turntable and other common issues.</p><a href="#enquiry">Enquire →</a></div></article>
-    <article class="card"><img src="https://unsplash.com/photos/an-air-conditioning-unit-is-mounted-on-a-wall-VdtIwqWTh78/download?force=true&w=900" alt="Air conditioner repair"><div class="cardbody"><div class="icon">❄️</div><h3>AC Repair & Service</h3><p>Split AC service and repair enquiries for cooling and common appliance problems.</p><a href="#enquiry">Enquire →</a></div></article>
-  </div>
+<div class="hero-img" aria-label="Appliance repair service"></div>
+<form class="form" onsubmit="sendEnquiry(event)"><h2>Enquiry Now</h2><p>Fill the form and send your service request directly on WhatsApp.</p><input id="name" required placeholder="👤 Your Name"><input id="mobile" required inputmode="tel" placeholder="📞 Mobile Number"><input id="address" placeholder="📍 Your Address"><textarea id="problem" required placeholder="📝 Tell us the problem / service you need"></textarea><button class="btn yellow" type="submit">💬 Send Enquiry on WhatsApp</button></form>
 </section>
 
-<section id="gallery" class="gallery">
-  <div class="section-title"><h2>Repair & Service Gallery</h2><div class="under"></div><p>Examples of the appliances and service categories we showcase. Real Galaxy Enterprises work photos can be added later.</p></div>
-  <div class="slider"><div class="slides">
-    <div class="slide"><img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1200&q=80" alt="Washing machine"><div class="caption">Washing Machine Repair</div></div>
-    <div class="slide"><img src="https://unsplash.com/photos/white-microwave-oven-turned-off-WtxE9xb0vQU/download?force=true&w=1200" alt="Microwave"><div class="caption">Microwave Oven Service</div></div>
-    <div class="slide"><img src="https://unsplash.com/photos/an-air-conditioning-unit-is-mounted-on-a-wall-VdtIwqWTh78/download?force=true&w=1200" alt="AC"><div class="caption">AC Repair & Service — AC clearly visible</div></div>
-  </div></div>
-</section>
+<div class="trust"><div>🏠<b>Doorstep Service</b><small>We come to you</small></div><div>⏱️<b>Quick Response</b><small>Convenient service</small></div><div>🛡️<b>Major Brands</b><small>Multiple brands supported</small></div><div>👍<b>Customer First</b><small>Quality & reliable support</small></div></div>
 
-<section id="brands">
-  <div class="section-title"><h2>Major Brands We Service</h2><div class="under"></div><p>Actual brand logos are shown below instead of text-only names.</p></div>
-  <div class="brands">
-    <div class="brand"><img src="https://cdn.simpleicons.org/lg" alt="LG"><b>LG</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/samsung" alt="Samsung"><b>Samsung</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/whirlpool" alt="Whirlpool"><b>Whirlpool</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/bosch" alt="Bosch"><b>Bosch</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/panasonic" alt="Panasonic"><b>Panasonic</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/haier" alt="Haier"><b>Haier</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/godrej" alt="Godrej"><b>Godrej</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/voltas" alt="Voltas"><b>Voltas</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/lloyd" alt="Lloyd"><b>Lloyd</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/ifb" alt="IFB"><b>IFB</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/daikin" alt="Daikin"><b>Daikin</b></div>
-    <div class="brand"><img src="https://cdn.simpleicons.org/bluestar" alt="Blue Star"><b>Blue Star</b></div>
-  </div>
-</section>
+<section id="services"><h2 class="title">Our Services</h2><p class="sub">Professional repair & service for washing machines, ACs and microwave ovens.</p><div class="services">
+<article class="card"><img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=900&q=85" alt="Washing machine repair"><div class="card-body"><h3>🧺 Washing Machine Repair</h3><p>Repair & service for fully automatic, semi-automatic and top-load washing machines.</p><a class="more" href="#contact">Enquire Now →</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1631545806609-2bff7a0a5a7f?auto=format&fit=crop&w=900&q=85" alt="AC repair and service"><div class="card-body"><h3>❄️ AC Repair & Service</h3><p>AC service for cooling problems, water leakage, installation and general repair enquiries.</p><a class="more" href="#contact">Enquire Now →</a></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=900&q=85" alt="Microwave oven repair"><div class="card-body"><h3>🍲 Microwave Oven Repair</h3><p>Repair for heating, door, turntable, starting and other common microwave problems.</p><a class="more" href="#contact">Enquire Now →</a></div></article>
+</div></section>
 
-<section id="why" class="why">
-  <div class="section-title"><h2>Why Choose Galaxy Enterprises?</h2><div class="under"></div><p style="color:#cbd8e7">A cleaner, more customer-focused way to present your service — without showing low review counts.</p></div>
-  <div class="whygrid">
-    <div class="whycard"><strong>01</strong><h3>One Place for Many Appliances</h3><p>Washing machine, microwave and AC service enquiries from one website.</p></div>
-    <div class="whycard"><strong>02</strong><h3>Easy Enquiry</h3><p>Customer can send name, mobile, address and problem directly from the website.</p></div>
-    <div class="whycard"><strong>03</strong><h3>WhatsApp First</h3><p>Quickly connect with Galaxy Enterprises through WhatsApp or phone for service enquiries.</p></div>
-    <div class="whycard"><strong>04</strong><h3>Major Brands</h3><p>Popular appliance brands are displayed clearly so customers can quickly identify their appliance brand.</p></div>
-  </div>
-</section>
+<section class="gallery" id="gallery"><h2 class="title">Repair & Service Gallery</h2><p class="sub">Washing machine, AC and microwave service visuals.</p><div class="slider" id="slider">
+<div class="slide"><img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=700&q=85"><span>Washing Machine Repair</span></div>
+<div class="slide"><img src="https://images.unsplash.com/photo-1631545806609-2bff7a0a5a7f?auto=format&fit=crop&w=700&q=85"><span>AC Repair & Service</span></div>
+<div class="slide"><img src="https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=85"><span>Microwave Repair</span></div>
+<div class="slide"><img src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=85"><span>Appliance Service</span></div>
+<div class="slide"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=85"><span>AC Service</span></div>
+</div></section>
 
-<section>
-  <div class="section-title"><h2>Customer Feedback</h2><div class="under"></div><p>Instead of highlighting a small review count, we keep the section focused on what customers want to know before booking.</p></div>
-  <div class="reviews">
-    <div class="review"><div class="stars">★★★★★</div><p>“Clear communication and convenient service enquiry process.”</p><small>— Customer feedback</small></div>
-    <div class="review"><div class="stars">★★★★★</div><p>“Good option when you need appliance repair in Varanasi.”</p><small>— Customer feedback</small></div>
-    <div class="review"><div class="stars">★★★★★</div><p>“Easy to contact by phone or WhatsApp for service details.”</p><small>— Customer feedback</small></div>
-  </div>
-</section>
+<section id="brands"><h2 class="title">We Repair & Service Major Brands</h2><p class="sub">Brand logos are shown as logo marks only — no separate repeated brand-name list.</p><div class="brands">
+<div class="brand"><img src="https://cdn.simpleicons.org/lg/000000" alt="LG"></div><div class="brand"><img src="https://cdn.simpleicons.org/samsung/000000" alt="Samsung"></div><div class="brand"><img src="https://cdn.simpleicons.org/whirlpool/000000" alt="Whirlpool"></div><div class="brand"><img src="https://cdn.simpleicons.org/bosch/000000" alt="Bosch"></div><div class="brand"><img src="https://cdn.simpleicons.org/panasonic/000000" alt="Panasonic"></div><div class="brand"><img src="https://cdn.simpleicons.org/haier/000000" alt="Haier"></div><div class="brand"><img src="https://cdn.simpleicons.org/godaddy/000000" alt="Godrej"></div><div class="brand"><img src="https://cdn.simpleicons.org/voltas/000000" alt="Voltas"></div><div class="brand"><img src="https://cdn.simpleicons.org/lloyd/000000" alt="Lloyd"></div><div class="brand"><img src="https://cdn.simpleicons.org/ifb/000000" alt="IFB"></div><div class="brand"><img src="https://cdn.simpleicons.org/bluestacks/000000" alt="Blue Star"></div>
+</div></section>
 
-<section id="enquiry" class="enquiry">
-  <div class="section-title"><h2>Enquiry Now</h2><div class="under"></div><p>Customer details भरकर Submit करें — enquiry WhatsApp पर तैयार message के रूप में खुलेगी.</p></div>
-  <form class="formwrap" onsubmit="sendEnquiry(event)">
-    <h2>Tell us what you need repaired</h2>
-    <input id="name" class="field" placeholder="Your Name" required>
-    <input id="mobile" class="field" placeholder="Mobile Number" inputmode="tel" required>
-    <input id="address" class="field full" placeholder="Your Address" required>
-    <textarea id="problem" class="field full" rows="5" placeholder="Problem / Service required" required></textarea>
-    <button class="submit full" type="submit">📲 Submit Enquiry on WhatsApp</button>
-  </form>
-</section>
+<section class="why" id="why"><h2 class="title">Why Choose Galaxy Enterprises?</h2><p class="sub">A clean, honest service experience focused on your appliance problem.</p><div class="whygrid">
+<div class="whybox"><div class="ico">👨‍🔧</div><h3>Skilled Service</h3><p>Experienced appliance repair support.</p></div><div class="whybox"><div class="ico">🏠</div><h3>Home Service</h3><p>Enquire for convenient doorstep availability.</p></div><div class="whybox"><div class="ico">🔧</div><h3>Repair Focused</h3><p>Solutions for common appliance problems.</p></div><div class="whybox"><div class="ico">💬</div><h3>Easy Enquiry</h3><p>Call or WhatsApp to discuss your issue.</p></div>
+</div></section>
 
-<section id="contact">
-  <div class="section-title"><h2>Find Galaxy Enterprises</h2><div class="under"></div><p>Patel Katra, Kakarmatta Road, Central Market DLW/BLW, Varanasi, Uttar Pradesh 221004</p></div>
-  <iframe class="map" src="https://www.google.com/maps?q=Patel%20Katra%2C%20Kakarmatta%20Rd%2C%20Central%20Market%20DLW%2C%20BLW%2C%20Varanasi%2C%20Uttar%20Pradesh%20221004&output=embed" loading="lazy" title="Galaxy Enterprises location"></iframe>
-</section>
+<section id="contact"><h2 class="title">Contact Galaxy Enterprises</h2><p class="sub">Call or WhatsApp us for service availability in Varanasi.</p><div class="contact"><div class="form" style="color:#fff"><h2>Need a Repair?</h2><p>Washing Machine • AC • Microwave Oven</p><div class="actions"><a class="btn blue" href="tel:8840436060">📞 Call 8840436060</a><a class="btn green" href="https://wa.me/918840436060">💬 WhatsApp</a></div></div><div class="map">📍<br>Patel Katra, Kakarmatta Rd,<br>Central Market DLW, BLW,<br>Varanasi, Uttar Pradesh 221004<br><br><a class="more" href="https://www.google.com/maps/search/?api=1&query=Galaxy%20Enterprises%20Patel%20Katra%20Kakarmatta%20Varanasi">Open Google Maps →</a></div></div></section>
+</main>
 
-<footer>
-  <div class="footgrid">
-    <div><h3>GALAXY ENTERPRISES</h3><p>Washing machine, microwave and AC repair service enquiries in Varanasi.</p><p>📞 <a href="tel:8840436060">8840436060</a></p></div>
-    <div><h3>Contact</h3><p>💬 <a href="https://wa.me/918840436060" target="_blank">WhatsApp</a> / WhatsApp Business</p><p>📍 Varanasi, Uttar Pradesh</p></div>
-    <div><h3>Quick Enquiry</h3><p><a href="#enquiry">📝 Send an Enquiry</a></p><p><a href="tel:8840436060">📞 Call Now</a></p></div>
-  </div>
-  <div class="copy">© 2026 Galaxy Enterprises. All Rights Reserved.</div>
-</footer>
-<a class="float" href="https://wa.me/918840436060?text=Hello%20Galaxy%20Enterprises,%20I%20need%20repair%20service." target="_blank">💬 Chat on WhatsApp</a>
-
+<footer class="footer"><div><h3>GALAXY ENTERPRISES</h3><p>Washing Machine, AC & Microwave repair and service in Varanasi.</p></div><div><h3>Quick Links</h3><p><a href="#services">Services</a> · <a href="#gallery">Gallery</a> · <a href="#brands">Brands</a> · <a href="#why">Why Us</a></p></div><div><h3>Contact</h3><p>📞 8840436060<br>💬 WhatsApp / WhatsApp Business<br>📍 Varanasi, Uttar Pradesh 221004</p></div></footer>
+<a class="float" href="https://wa.me/918840436060">💬 Chat on WhatsApp</a>
 <script>
 function sendEnquiry(e){
-  e.preventDefault();
-  const name=document.getElementById('name').value.trim();
-  const mobile=document.getElementById('mobile').value.trim();
-  const address=document.getElementById('address').value.trim();
-  const problem=document.getElementById('problem').value.trim();
-  const text=`Hello Galaxy Enterprises,%0A%0AI want a service enquiry.%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(mobile)}%0AAddress: ${encodeURIComponent(address)}%0AProblem/Service: ${encodeURIComponent(problem)}`;
-  window.open(`https://wa.me/918840436060?text=${text}`,'_blank');
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim(), mobile=document.getElementById('mobile').value.trim(), address=document.getElementById('address').value.trim(), problem=document.getElementById('problem').value.trim();
+ const msg=`Hello Galaxy Enterprises,%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(mobile)}%0AAddress: ${encodeURIComponent(address)}%0AProblem/Service: ${encodeURIComponent(problem)}`;
+ window.open('https://wa.me/918840436060?text='+msg,'_blank');
 }
+const slider=document.getElementById('slider');let x=0;
+setInterval(()=>{if(window.innerWidth>900){x+=1;if(x>slider.scrollWidth-slider.clientWidth)x=0;slider.scrollTo({left:x,behavior:'smooth'})}},35);
 </script>
 </body>
 </html>
